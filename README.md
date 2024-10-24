@@ -23,4 +23,4 @@ Helper scripts for PowerDNS 4, which interact via the API.
   - Using the above example your resulting records will look like "128-30-168-192.static.host.com"
 - Fill in pdns.conf with the /24 subnet which you will be applying the template to
 - Open up a terminal within this directory
-- Run the following command: ```$ ./apply-rdns-template.sh -o``` (You must add a flag to the script as confirmation. Currently the only options are "-h/--help" and "-o/--overwrite". Please note, "-o" will overwrite any existing data you have in your zone's PTR rrset)
+- Run the following command: ```$ ./update_dns_record.sh -o``` (You must add a flag to the script as confirmation. Currently the only options are "-h/--help" and "-o/--overwrite". Please note, "-o" will overwrite any existing data you have in your zone's PTR rrset)
