@@ -1,0 +1,11 @@
+{
+"rrsets": [
+  {
+   "name": "a_record.",
+   "type": "A",
+   "ttl": 1800,
+   "changetype": "REPLACE",
+   "records": [ {"content": "ip_address", "disabled": false} ]
+  }
+ ]
+}
